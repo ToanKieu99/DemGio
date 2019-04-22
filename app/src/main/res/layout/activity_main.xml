@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:layout_gravity="end"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icget" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imgSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy On You"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvSublash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Key of happiness is not \nlife for money"
+            android:textColor="#AFAFAF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradien_button"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginBottom="80dp"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
